@@ -114,7 +114,7 @@ public class ItemServiceTest {
         verifyStatic(times(1));
         StaticService.readFile(fileName);
 
-        assertThat(value, equalTo("Dummy_2"));
+        assertThat(value, equalTo("Dummy"));
     }
 
     @Test
